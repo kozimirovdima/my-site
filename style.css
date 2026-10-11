@@ -20,7 +20,30 @@ a {
 
 img {
   width: 150px;
+  max-width: 100%;
   border-radius: 50%;
+}
+
+#taskInput {
+  width: 70%;
+  padding: 10px 12px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+#addBtn {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2a6df4;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#addBtn:hover {
+  background-color: #1f57c8;
 }
 
 #taskList {
@@ -29,16 +52,24 @@ img {
 }
 
 #taskList li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   padding: 12px 14px;
   margin-bottom: 10px;
   border: 1px solid #d0d7de;
   border-radius: 8px;
   background-color: #fff;
   cursor: pointer;
+  transition: background-color 0.2s, border-color 0.2s;
+}
+
+#taskList li:hover {
+  background-color: #f0f6ff;
+  border-color: #2a6df4;
 }
 
 #taskList li button {
-  float: right;
   border: none;
   background: transparent;
   color: #d6336c;
@@ -58,5 +89,10 @@ img {
 
   img {
     width: 100px;
+  }
+
+  #taskInput {
+    width: 100%;
+    box-sizing: border-box;
   }
 }
