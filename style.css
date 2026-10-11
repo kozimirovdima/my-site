@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 600px;
+  margin: 40px auto;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+h1 {
+  color: #2a6df4;
+}
+
+h2 {
+  color: #d6336c;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #999;
+}
