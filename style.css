@@ -48,7 +48,7 @@ img {
 
 .done {
   text-decoration: line-through;
-  color: #999;
+  color: #999999;
 }
 
 @media (max-width: 500px) {
