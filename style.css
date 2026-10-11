@@ -23,7 +23,40 @@ img {
   border-radius: 50%;
 }
 
+#taskList {
+  list-style: none;
+  padding: 0;
+}
+
+#taskList li {
+  padding: 12px 14px;
+  margin-bottom: 10px;
+  border: 1px solid #d0d7de;
+  border-radius: 8px;
+  background-color: #fff;
+  cursor: pointer;
+}
+
+#taskList li button {
+  float: right;
+  border: none;
+  background: transparent;
+  color: #d6336c;
+  cursor: pointer;
+  font-size: 16px;
+}
+
 .done {
   text-decoration: line-through;
   color: #999;
+}
+
+@media (max-width: 500px) {
+  body {
+    margin: 16px;
+  }
+
+  img {
+    width: 100px;
+  }
 }

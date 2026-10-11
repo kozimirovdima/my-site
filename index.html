@@ -2,37 +2,55 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <title>Моя первая страница</title>
 </head>
 <body>
-  <h1>Привет, мир!</h1>
-  <p>Меня зовут Dmitry, и я учусь веб-разработке.</p>
+  <section id="intro">
+    <h1>Привет, мир!</h1>
+    <p>Меня зовут Dmitry, и я учусь веб-разработке.</p>
+  </section>
 
-  <h2>Мои цели</h2>
-  <p>Хочу научиться веб-разработке. Буду учиться с помощью Claude.</p>
+  <section id="goals">
+    <h2>Мои цели</h2>
+    <p>Хочу научиться веб-разработке. Буду учиться с помощью Claude.</p>
+  </section>
 
-  <h2>Чему я хочу научиться:</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>JavaScript</li>
-  </ul>
+  <section id="skills">
+    <h2>Чему я хочу научиться:</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+    </ul>
+  </section>
 
-  <h2>Ссылка</h2>
-  <a href="https://developer.mozilla.org/ru/">MDN, лучший справочник по вебу</a>
+  <section id="resources">
+    <h2>Ссылка</h2>
+    <a href="https://developer.mozilla.org/ru/">MDN, лучший справочник по вебу</a>
+  </section>
 
-  <h3>Фото:</h3>
-  <img src="photo.jpg" alt="Статуя Будды">
+  <section id="photo-section">
+    <header>
+      <h3>Фото:</h3>
+      <img src="photo.jpg" alt="Статуя Будды">
+    </header>
+  </section>
 
-  <h2>Попробуй JavaScript</h2>
-  <button id="btn">Нажми меня</button>
-  <p id="message"></p>
+  <section id="js-demo">
+    <h2>Попробуй JavaScript</h2>
+    <button id="btn">Нажми меня</button>
+    <p id="message"></p>
+  </section>
 
-  <h2>Мои дела</h2>
-  <input type="text" id="taskInput" placeholder="Что нужно сделать?">
-  <button id="addBtn">Добавить</button>
-  <ul id="taskList"></ul>
+  <section id="todo">
+    <h2>Мои дела</h2>
+    <input type="text" id="taskInput" placeholder="Что нужно сделать?">
+    <button id="addBtn">Добавить</button>
+    <ul id="taskList"></ul>
+  </section>
+
   <script src="script.js"></script>
 </body>
 </html>
